@@ -34,7 +34,11 @@ class User {
       [username]);
 
     let user = results.rows[0]
-    return await bcrypt.compare(password, user.password)
+    if(user){
+      return await bcrypt.compare(password, user.password)
+    } else{
+      return false;
+    }
   }
 
   /** Update last_login_at for user */
