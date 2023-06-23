@@ -22,7 +22,7 @@ const DB_URI = (process.env.NODE_ENV === "test")
 //     database: "messagely"
 //   }
 
-const SECRET_KEY = process.env.SECRET_KEY || "secret";
+const SECRET_KEY = process.env.SECRET_KEY || "HJ*()jp;**(JPnk0890HJ0[k089yu8h9phnioG&*^G56567p9M()_9089nl";
 
 const BCRYPT_WORK_FACTOR = 12;
 
